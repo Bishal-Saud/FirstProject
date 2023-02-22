@@ -1,0 +1,46 @@
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    padding: 1rem;
+    
+    box-shadow: 0px 0px 11px black;
+}
+
+form h2{
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 15rem;
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    background-color: white;
+
+}
+textarea{
+    border: none;
+    outline: none;
+}
+
+.submit-btn{
+    text-align: center;
+    margin: 1rem 3rem;
+    border-radius: 12px;
+}
+
+label{
+    padding: 5px 0;
+    font-weight: bold;
+}

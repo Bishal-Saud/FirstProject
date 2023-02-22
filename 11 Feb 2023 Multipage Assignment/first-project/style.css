@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/* Header and navbar section Here */
+/* .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* All images and Icon */
+
+/* Header images and icons */
+.black-h-Phone {
+    position: absolute;
+    width: 11rem;
+    padding: 0px 2rem;
+    left: 9rem;
+    top: 1rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.beats-logo {
+    padding: 0px 8rem;
+}
+
+/* MAin section logo images  */
+.main-sec .onEar{
+    width: 20rem;
+    padding: 1rem 0;
+    padding-left: 11rem;
+}
+
+.main-sec-btn .shop-logo{
+   
+}
+/* ReUseable Code */
+
+.btn{
+    width: 6rem;
+    height: 2.5rem;
+    border-left: 3px solid  rgb(137 141 141);
+    border-top: 3px solid rgb(137 141 141);
+    background-color: #3b3e44;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+  
+}
+
+/* Navbar Section  */
+.nav-header{
+    padding: 1.5rem 3rem;
+}
+.nav-header .navbar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.nav-header .navbar .nav-lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav-header .navbar .nav-lists .nav-list-item{
+    list-style: none;
+}
+
+.nav-header .navbar .nav-lists .nav-list-item a{
+    text-decoration: none; 
+    color: white;
+    padding: 0 2rem;
+    
+font-family: 'Poppins', sans-serif;
+}
+
+
+/* Main Section Start HERe  */
+.main-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section{
+    text-align: center;
+    width: 50rem;
+}
+
+.main-sec-heading{
+    width: 21rem;
+    /* padding: 1rem 0; */
+    text-align: start;
+    margin: auto;
+    font-size: 4rem;
+
+}
+.main-sec-para1{
+    padding: 2rem 0;
+    font-weight: bold;
+    
+}
+.main-sec-para2{
+    font-size: 14px;
+color: #a49e9e;
+padding: 2rem 0;
+}
+.para{
+    width: 20rem;
+    /* padding: 0 38rem; */
+    text-align: start;
+    margin: auto;
+}
+
+.main-sec-btn{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    width: 17rem;
+    align-items: center;
+    margin: auto;
+    border: none;
+    outline: none;
+}
+
+/* Client SEction Start  */
+.client-section .client-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.client-section .client-logo .cl-logo{
+    padding: 0 6rem;
+}
+
+/* specs SEction Start  */
+
+.specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.specs .specs-logo{
+
+}
+.specs  .specs-img{
+    position: absolute;
+    left: 48rem;
+}
+
+.specs .box1{
+    width: 19rem;
+    padding: 2rem 0;
+}
+.specs .box2{
+    padding: 2rem 0;
+    width: 29rem;
+}
+.specs .box3{
+    padding: 2rem 0;
+    width: 29rem;
+}
+.specs .box4{
+    padding: 2rem 0;
+
+}
+
+/* Case Section Start  */
+.case-section{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.case-section .case-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-box .case-box-image{
+    width: 17rem;
+    padding: 4rem 2rem;
+}
+
+.case-box .case-box-para{
+    width: 20rem;
+    text-align: start;
+    padding: 2rem 0;
+}
+
+.more-info-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    height: 3.5rem;
+    border: 2px  solid black;
+    color: white;
+    background-color: #4241417b;
+    
+    border-radius: 8px;
+}
+
+.group-icon{
+    padding-right: 2rem;
+}
+
+/* second-case-section */
+
+.second-case-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-case-section .case-2nd-box{
+    background-color: #4241417b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.case-2nd-heading{ 
+       width: 14rem;
+    padding: 0 8rem;
+}
+.case-2nd-para{   
+     width: 14rem;
+    padding: 10px 8rem;
+}
+.extra-2nd-case-box{}
+
+.case-2nd-btn {
+    border: none;
+    width: 14rem;
+    margin: auto;
+   
+}
+.case-2nd-btn .shoping-bag2-btn-img{
+    padding-right: 2rem;
+    margin: -1rem;
+   
+}
+/* choose-your-style Section Start */
+
+.choose-your-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.product-logo{
+    padding: 4rem 0;
+}
+.image-box-product{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.product-1-box{
+    width: 13rem;
+    height: 12rem;
+    margin: auto;
+    /* border: 2px solid; */
+    background-color: #4241417b;
+    margin: 2rem;
+}
+.headphone{
+    width: 6rem;
+    position: relative;
+    bottom: 3rem;
+    left: 4rem;
+}
+.extra-product-1-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-product-1-box .extra-box2-product{
+    padding-right: 2rem;
+    width: 50%;
+}
+
+.shoping-bag-product-box .shoping-bag{
+    background-color: #0000007b;
+    padding: 6px;
+}
+
+/* Footer Here  */
+.footer{
+    /* background-color: #4241417b; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 16rem;
+    padding: 3rem 7rem;
+}
+.footer ul li{
+    padding: 5px;
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    padding: 2rem 0;
+}
+.footer .footer-logo{
+    padding-left: 10rem;
+}
+
+.footer-box3 .form .email-box{
+    display: flex;
+    width: 19rem;
+    /* border: 2px solid; */
+    /* height: 3rem; */
+    padding: 9px 1rem;
+    /* border: 2px solid; */
+    height: 3rem;
+    justify-content: center;
+    background-color: #201f1f;
+    align-items: center;
+}
+
+.email{
+    background:none;
+    border: none;
+    outline: none;
+}
+
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+    padding: 6px 17px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.subscribe-btn2{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer-icons{
+    padding: 2rem 0;
+}
+
+.footer-icon{
+    padding:  0 1rem;
+    cursor: pointer;
+}
+.footer{
+    
+        margin: 2rem 0;
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .hamburger{
+    position: absolute;
+    width: 2rem;
+    display: block;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+    .nav-header{
+        display: none;
+    }
+    .main-sec .onEar {
+        width: 20rem;
+        /* padding: 1rem 0px 1rem 11rem; */
+    }
+    .client-section .client-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+    .client-section .client-logo .cl-logo {
+        padding: 0px 2rem;
+    }
+    .specs .specs-img {
+        position: absolute;
+        left: 29rem;
+        width: 14rem;
+    }
+    
+    .case-2nd-heading {
+        width: 12rem;
+        padding: 0px 0rem;
+        padding: -1px 7rem;
+    }
+    .case-2nd-para {
+        width: 12rem;
+        padding: 10px 2rem;
+    }
+    .footer .footer-logo {
+        padding-left: 3rem;
+    }
+    .footer {
+        /* background-color: #4241417b; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        height: 16rem;
+        padding: 0rem 1rem;
+    }
+}
+@media screen and (max-width:768px) {
+.nav-header{
+    opacity:0;
+    display: none;
+    
+}
+.hamburger{
+    position: absolute;
+    width: 2rem;
+    display: block;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+.main-sec .onEar {
+    width: 16rem;
+    padding: 1rem 0;
+    /* padding-left: 11rem; */
+}
+
+.client-section .client-logo .cl-logo {
+    padding: 13px 1rem;
+    width: 3rem;
+}
+.specs .specs-img {
+    position: absolute;
+    left: 16rem;
+    width: 9rem;
+
+}
+.specs .box1 {
+    width: 9rem;
+    padding: 2rem 0;
+}
+.specs .box2 {
+    padding: 2rem 0;
+    width: 20rem;
+}
+.specs .box3 {
+    padding: 2rem 0;
+    width: 20rem;
+}
+.specs .box4 {
+    padding: 1rem 0;
+}
+.extra-2nd-case-box {
+    padding: 2rem;
+    /* width: 21%; */
+}
+.second-case-section .case-2nd-box {
+
+    flex-direction: column-reverse;
+}
+.case-section .case-box {
+   
+    flex-direction: column;
+}
+
+.product-logo {
+    width: 16rem;
+    padding: 4rem 0;
+}
+.headphone {
+    width: 6rem;
+    position: relative;
+    bottom: 2rem;
+    left: 3rem;
+}
+.product-1-box {
+    width: 11rem;
+    height: 13rem;
+    margin: auto;
+    /* border: 2px solid; */
+    background-color: #4241417b;
+    margin: 1.5rem;
+}
+
+/* Footer  */
+.choose-your-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+
+.footer .footer-logo {
+    padding-left: 0;
+}
+.footer {
+    /* background-color: #4241417b; */
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    height: 34rem;
+    /* padding: 3rem 7rem; */
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-lists{
+    padding: 2rem 0;
+}
+.footer-icons {
+    padding: 2rem 31px;
+}
+
+}
+
+@media screen and (max-width:425px) {
+    .hamburger{
+        position: absolute;
+        width: 2rem;
+        display: block;
+        top: 1rem;
+        left: 1rem;
+        cursor: pointer;
+    }
+    .headphone {
+        width: 4rem;
+        position: relative;
+        bottom: 1rem;
+        left: 1rem;
+    }
+    .product-1-box {
+        width: 9rem;
+        height: 9rem;
+        margin: auto;
+        /* border: 2px solid; */
+        background-color: #4241417b;
+        margin: 13px;
+    }
+    .case-box .case-box-image {
+        width: 10rem;
+        padding: 0rem 2rem;
+    }
+    .card-2nd-img{
+        width: 15rem;
+    }
+    .second-case-section .case-2nd-box {
+       
+        width: 21rem;
+    }
+    .specs .box2 {
+        padding: 2rem 0;
+        width: 14rem;
+    }
+    .specs .box3 {
+        padding: 2rem 0;
+        width: 12rem;
+    }
+    .client-section .client-logo .cl-logo {
+        padding: 13px 1rem;
+        width: 8rem;
+    }
+    .client-section .client-logo {
+        padding: 3rem 0;
+        flex-direction: column;
+    }
+    .case-2nd-heading {
+        width: 14rem;
+        padding: 1rem 0;
+    }
+    .case-2nd-para {
+        width: 7rem;
+        padding: 10px 0rem;
+    }
+
+    .case-2nd-img{
+        
+            width: 15rem;
+        
+    }
+    .specs .specs-img {
+        position: absolute;
+        left: 13rem;
+        width: 9rem;
+    }
+    .main-sec .onEar {
+        width: 11rem;
+    }
+    .specs .box h2,p{
+        font-size: 1rem;
+    }
+    .email {
+        background: none;
+        border: none;
+        outline: none;
+        padding: 1rem 0;
+    }
+    .footer-box3 .form .email-box {
+    flex-direction: column;
+    border-radius: 16px;
+    }
+    .footer-box3 .form .email-box {
+    width: 11rem;
+    height: 7rem;
+    }
+}
