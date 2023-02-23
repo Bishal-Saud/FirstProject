@@ -1,0 +1,65 @@
+body{
+    background-color: cyan;
+}
+
+ @media screen and (max-width:1440px) {  /*for Big screen We use this css media queries  */
+    body{
+        background-color: greenyellow;
+    }
+    .big-screen{
+        display: block;
+           font-size: 5rem;
+        
+    }
+
+    .normal-screen{display: none;}
+    .tablet-screen{display: none;}
+    .mobile-screen{display: none;}
+    
+}
+@media screen and (max-width:1024px) { /*for normal  screen We use this css media queries  */
+    body{
+        background-color: gray;
+    }
+    .normal-screen{
+        font-size: 4rem;
+        display: block;
+        
+    }
+
+    .big-screen{display: none;}
+    .tablet-screen{display: none;}
+    .mobile-screen{display: none;}
+    
+}
+
+@media screen and (max-width:768px) { /*for Tablet screen We use this css media queries  */
+    body{
+        background-color: rgb(24, 180, 192);
+    }
+    .tablet-screen{
+        font-size: 3rem;
+        display: block;
+        
+    }
+
+    .normal-screen{display: none;}
+    .big-screen{display: none;}
+    .mobile-screen{display: none;}
+    
+}
+
+@media screen and (max-width:425px) { /*for mobile screen We use this css media queries  */
+    body{
+        background-color: greenyellow;
+    }
+    .mobile-screen{
+        display: block;
+        font-size: 2rem;
+        
+    }
+
+    .normal-screen{display: none;}
+    .tablet-screen{display: none;}
+    .big-screen{display: none;}
+}
